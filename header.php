@@ -13,10 +13,11 @@
     <!-- My CSS -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/media.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" href="css/aos.css" />
 	<!-- My JS -->
-
+	
 </head>
 
 <body>
