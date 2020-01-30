@@ -27,10 +27,11 @@
                 <input type="text" name="message" placeholder="Message" class="form-control" name="Message" required>
                 <br>
                 <center>
-                    <button type="submit" class="btn_moreee btn btn-primary form_group_button" onclick="myfunction();return(false);">
-                    <img src="img/arrow1.png" class="arrow_button" alt="arrow">
-                    SEND
-                    </button>
+                <div class="btn_more contact_btn-width">
+                    <p>KNOW MORE</p>
+                        <img src="img/arrow1.png" class="button-project" alt="arrow">
+                        <div class="clearfix"></div>
+                </div>
                 </center>
                 
             

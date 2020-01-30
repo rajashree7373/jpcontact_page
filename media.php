@@ -99,26 +99,32 @@
 
     <div class="media_sletters">
 
-        <div class="media_mg">
-            <a href=""><img src="img/newssltter1.jpg" class="sletter_img" alt="news_sletters"></a>
-            <div class="media_hveff">
-                <p class="media_hvtext">hf u ufy ahuy </p>
+        <div class="row_news news-responsive">
+
+            <div class="column_news">
+                <img src="img/newssltter1.jpg" alt="Trulli" style="width:100%" class="news_img">
+                <div class="media_hveff">
+                    <p class="media_hvtext">hf u ufy ahuy </p>
+                </div>
             </div>
+
+            <div class="column_news">
+                <img src="img/newssletter2.jpg" alt="Trulli" style="width:100%" class="news_img">
+                <div class="media_hveff">
+                    <p class="media_hvtext">hf u ufy ahuy </p>
+                </div>
+            </div>
+
+            <div class="column_news">
+                <img src="img/newsletter3.jpg" alt="Trulli" style="width:100%" class="news_img">
+                <div class="media_hveff">
+                    <p class="media_hvtext">hf u ufy ahuy </p>
+                </div>
+            </div>
+
         </div>
 
-        <div class="media_mg">
-            <a href=""><img src="img/newssletter2.jpg" class="sletter_img" alt="news_sletters"></a>
-            <div class="media_hveff">
-                <p class="media_hvtext">hf u ufy ahuy </p>
-            </div>
-        </div>
-
-        <div class="media_mg">
-            <a href=""><img src="img/newsletter3.jpg" class="sletter_img" alt="news_sletters"></a>
-            <div class="media_hveff">
-                <p class="media_hvtext">hf u ufy ahuy </p>
-            </div>
-        </div>
+        
         
         <div class="clearrb"></div>
     </div>
@@ -139,8 +145,8 @@
                 <figure>
                     <img src="img/event1.jpg" alt="Trulli" style="width:100%">
                     <figcaption>
-                        Fig.1 - Trulli, Puglia, Italy.
-                        <p class="fig_txt">leroma text text</p>
+                        Pottery workshop- Connect to Art
+                        <p class="fig_txt">October 4, 2019</p>
                     </figcaption>
                 </figure>
             </div>
@@ -149,8 +155,8 @@
                 <figure>
                     <img src="img/event2.jpg" alt="Trulli" style="width:100%">
                     <figcaption>
-                        Fig.1 - Trulli, Puglia, Italy.
-                        <p class="fig_txt">leroma text text</p>
+                        National Safty Week @ JP North
+                        <p class="fig_txt">March 4, 2019</p>
                     </figcaption>
                 </figure>
             </div>
@@ -159,8 +165,8 @@
                 <figure>
                     <img src="img/event3.jpg" alt="Trulli" style="width:100%">
                     <figcaption>
-                        Fig.1 - Trulli, Puglia, Italy.
-                        <p class="fig_txt">leroma text text</p>
+                        Christmas Celebration- Joy of Giving
+                        <p class="fig_txt">December 25, 2018</p>
                     </figcaption>
                 </figure>
             </div>
@@ -169,8 +175,8 @@
                 <figure>
                     <img src="img/event4.jpg" alt="Trulli" style="width:100%">
                     <figcaption>
-                        Fig.1 - Trulli, Puglia, Italy.
-                        <p class="fig_txt">leroma text text</p>
+                        Diwali Celebrations
+                        <p class="fig_txt">November 10, 2018</p>
                     </figcaption>
                 </figure>
             </div>
@@ -214,7 +220,7 @@
 
     <div class="media_article">
 
-        <div class="row_article">
+        <div class="row_article article-responsive">
 
             <div class="column_article">
                 <img src="img/zeebuessnes.png" alt="Trulli" style="width:100%">
@@ -256,10 +262,13 @@
     <p class="media_fdtext">
         Let us help. Speak to our property expert today
     </p>
-    <button type="submit" class="btn_mor" >
-        <img src="img/arrow1.png" class="arrow_button" alt="arrow">
-        KNOW MORE
-    </button>
+   
+    <div class="btn_more media_btn-width">
+        <p>KNOW MORE</p>
+            <img src="img/arrow1.png" class="button-project" alt="arrow">
+            <div class="clearfix"></div>
+    </div>
+    
 </div>
 
 <!-- know more close -->
@@ -269,7 +278,7 @@
 <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
 
 
-  <script>
+<script>
 
 $('.event-responsive').slick({
   dots: true,
@@ -299,7 +308,7 @@ $('.event-responsive').slick({
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         dots: true,
         autoplay: true,
         arrow: true,
@@ -316,13 +325,116 @@ $('.event-responsive').slick({
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
 
 </script>
+
+
+<script>
+
+$('.news-responsive').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  arrow: true,
+  autoplay: true,
+  prevArrow:"<img class='a-left control-c prev slick-prev' src='../img/arrow_left.png'>",
+  nextArrow:"<img class='a-right control-c next slick-next' src='../img/arrow_right.png'>",
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        dots: true,
+        autoplay: true,
+        arrow: true,
+        prevArrow:"<img class='a-left control-c prev slick-prev' src='../img/arrow_left.png'>",
+        nextArrow:"<img class='a-right control-c next slick-next' src='../img/arrow_right.png'>",
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        dots: true,
+        autoplay: true,
+        arrow: true,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        dots: true,
+        autoplay: true,
+        arrow: true,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+
+</script>
+
+<script>
+
+$('.article-responsive').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  arrow: true,
+  autoplay: true,
+  prevArrow:"<img class='a-left control-c prev slick-prev' src='../img/arrow_left.png'>",
+  nextArrow:"<img class='a-right control-c next slick-next' src='../img/arrow_right.png'>",
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 6,
+        dots: true,
+        autoplay: true,
+        arrow: true,
+        prevArrow:"<img class='a-left control-c prev slick-prev' src='../img/arrow_left.png'>",
+        nextArrow:"<img class='a-right control-c next slick-next' src='../img/arrow_right.png'>",
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        dots: true,
+        autoplay: true,
+        arrow: true,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        dots: true,
+        autoplay: true,
+        arrow: true,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+
+</script>
+
 
 
 <?php include 'footer.php';?>

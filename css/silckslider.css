@@ -82,6 +82,7 @@ section.home-section1{
 }
 .slick-list:focus { 
   outline: none; 
+
 }
 .slick-loading .slick-list { 
   background: #fff url("./ajax-loader.gif") center center no-repeat; 
@@ -116,6 +117,7 @@ section.home-section1{
     min-height: 1px; 
     display: none; 
   }
+  
   [dir="rtl"] .slick-slide { 
     float: right; 
   }

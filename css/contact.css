@@ -49,15 +49,63 @@ input {
 p.texxxt {
     margin: 0% 7% 0% 18%;
 }
-button.btn_moreee {
-    background: #325a8cf0;
-    color: #fff;
-    padding: 6px;
-    text-align: center;
-    width: 35%;
-    border: 0px;
-    margin-top: 20px;
+
+
+.btn_more {
+    transition: letter-spacing .5s ease;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #2A5781;
+    box-shadow: none;
+    outline: none;
+    /* margin: 10px; */
+    font-weight: 600;
+    width: 100%;
 }
+img.arrow_button {
+    width: 5.5%;
+    padding: 0;
+    margin-top: .4rem;
+    margin-left: .5rem;
+    float: left;
+    transform-origin: left;
+    transition: transform .5s ease;
+    vertical-align: middle;
+    display: inline-block;
+}
+.contact_btn-width{
+    height: 32px;
+    padding: 3px 2px 2px 5px;
+    width: 60% !important;
+    margin: 0 auto;
+    border: 1px solid #0a5184;
+}
+.btn_more p{
+    color: #2e5689;
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn_more:hover{
+    letter-spacing: .2rem;
+}
+.btn-width{
+    width: 35%;
+    margin: 0 auto;
+}
+img.button-project{
+    width: 18%;
+    padding: 0;
+    margin-top: .4rem;
+    margin-left: .5rem;
+    float : left;
+    transform-origin: left;
+    transition: transform .5s ease;
+    vertical-align: middle;
+    display: inline-block;
+}
+
 h4 {
     color: #2e5689;
     font-weight: 600;
