@@ -5,96 +5,139 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css">
 
-<div class="media_banner">
-    <img src="img/mediabanner.jpg" alt="media_banner" class="media_desk img-responsive">
-    <img src="" alt="media_image" class="media_mob img-responsive">
-</div>
 
 <!-- media start -->
+<!-- glimpse jp desktop start -->
+<div class="glimpse-main desktop">
+ 
+  <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">media</h1>
+  
+  <div class="contact_line"></div>
 
-<section> 
+        <!-- slider desktop start -->
+        <div class="media_glimpse-slider desktop">
+            <div class="media_glimpse-col">
+                <div class="media_glimpse-col-inner">
+                    <img src="img/Media-1.jpg">
+                </div>
+                <div class="media_glimpse-col-inner">
+                    <img src="img/Media-2.jpg">
+                </div>
+                <div class="clearfix"></div> 
+            </div>
 
-	<div class="jpdesec">
-	
-        <h1>Media</h1>
-        <div class="contact_line"></div>
-		<div class="jpnorthmain">
-		
-		<div class="container_asp">	
-		
-		<div id="myCarouselaks" class="carousel slide" data-ride="carousel">
-			<!-- Indicators -->
-			<ol class="carousel-indicators">
-			<li data-target="#myCarouselaks" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarouselaks" data-slide-to="1"></li>
-			<li data-target="#myCarouselaks" data-slide-to="2"></li>
-			</ol>
-		
-			<div class="carousel-inner">
-		
-			<div class="item active">
-				<div class="gallery">
-					<img src="img/Media-1.jpg" alt="" width="100%" height="auto" class="gallery-img" />
-					<img src="img/Media-2.jpg" alt="" width="100%" height="auto" class="gallery-img" />
-					<img src="img/Media-5.jpg" alt="" width="100%" height="512px" class="gallery-img" />
-					<div class="clearfix"></div>
-					<img src="img/Media-3.jpg" alt="" width="100%" height="auto" class="gallery-img" />
-					<img src="img/Media-4.jpg" alt="" width="100%" height="auto" class="gallery-img" />
-				</div>
-			</div>
-		
-			<div class="item ">
-				<div class="gallery">
-					<img src="img/Media-1.jpg" alt="" width="100%" height="auto" class="gallery-img" />
-					<img src="img/Media-2.jpg" alt="" width="100%" height="auto" class="gallery-img" />
-					<img src="img/Media-5.jpg" alt="" width="100%" height="512px" class="gallery-img " />
-					<div class="clearfix"></div>
-					<img src="img/Media-3.jpg" alt="" width="100%" height="auto" class="gallery-img" />
-					<img src="img/Media-4.jpg" alt="" width="100%" height="auto" class="gallery-img" />
-				</div>
-			</div>
-		
-			<div class="item ">
-				<div class="gallery">
-					<img src="img/Media-1.jpg" alt="" width="100%" height="auto" class="gallery-img" />
-					<img src="img/Media-2.jpg" alt="" width="100%" height="auto" class="gallery-img" />
-					<img src="img/Media-5.jpg" alt="" width="100%" height="512px" class="gallery-img " />
-					<div class="clearfix"></div>
-					<img src="img/Media-3.jpg" alt="" width="100%" height="auto" class="gallery-img" />
-					<img src="img/Media-4.jpg" alt="" width="100%" height="auto" class="gallery-img" />
-				</div>
-			</div>
-		
-		
-			</div>
-		
-		
-		</div>
-			</div>
-			
-		</div> 
-		
-		
-		<div id="myModal" class="modal fade" role="dialog">
-		<div class="modal-dialog">
-			<div class="modal-content">
-			<div class="modal-body">
-			</div>
-			</div>
-		</div>
-		</div>
-		</div>
-	</div>	
-</section>
-	
-</div>
+            <div class="media_glimpse-col">
+                <div class="media_glimpse-col-middle">
+                    <img src="img/Media-Big.jpg">
+                </div>    
+            </div>
+
+            <div class="media_glimpse-col">
+                <div class="media_glimpse-col-inner">
+                    <img src="img/Media-3.jpg">
+                </div>
+                <div class="media_glimpse-col-inner">
+                    <img src="img/Media-4.jpg">
+                </div>
+                <div class="clearfix"></div> 
+            </div>
+            <div class="clearfix"></div> 
+        </div>
+        <!-- desktop end -->
+        <div class="clearfix"></div> 
+    </div>
+    <!-- glimpse jp desktop ends -->
+
+
+    <!-- glimpse jp mobile start -->
+    <div class="media_glimpse-main mobile">
+
+    <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">media</h1>
+  
+    <div class="contact_line"></div>
+
+
+        <!-- slider mobile start -->
+        <div class="media_glimpse-slider responsivehomeproj">
+            <div class="media_glimpse-col">
+                <div class="media_glimpse-col-inner">
+                    <img src="img/Media-1.jpg">
+                </div>
+            </div> 
+            <div class="media_glimpse-col">
+                <div class="media_glimpse-col-inner">
+                    <img src="img/Media-2.jpg">
+                </div>
+            </div>
+
+            <div class="media_glimpse-col">
+                <div class="media_glimpse-col-inner">
+                    <img src="img/Media-5.jpg">
+                </div>    
+            </div>
+
+            <div class="media_glimpse-col">
+                <div class="media_glimpse-col-inner">
+                    <img src="img/Media-3.jpg">
+                </div>
+            </div>    
+            <div class="media_glimpse-col">    
+                <div class="media_glimpse-col-inner">
+                    <img src="img/Media-4.jpg">
+                </div>
+            </div>
+        </div>
+        <!-- slider mobile ends -->
+    </div>
+    <!-- glimpse jp mobile start -->
 
 <!-- media close -->
 
+<!-- article start -->
+
+<div class="media_art">
+    <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">Articles</h1>
+    <div class="contact_line"></div>
+
+    <div class="media_article">
+
+        <div class="row_article article-responsive">
+
+            <div class="column_article">
+                <img src="img/zeebuessnes.png" alt="Trulli" style="width:100%">
+            </div>
+
+            <div class="column_article">
+                <img src="img/midday.png" alt="Trulli" style="width:100%">
+            </div>
+
+            <div class="column_article">
+                <img src="img/moneycotrol.png" alt="Trulli" style="width:100%">
+            </div>
+
+            <div class="column_article">
+                <img src="img/bs.png" alt="Trulli" style="width:100%">
+            </div>
+
+            <div class="column_article">
+                <img src="img/kwatt.png" alt="Trulli" style="width:100%">
+            </div>
+
+            <div class="column_article">
+                <img src="img/arkzerr.png" alt="Trulli" style="width:100%">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- article end -->
+
 <!-- new slater -->
 <div class="media_news">
-    <h1>News Sletters</h1>
+    <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">Newsletters</h1>
     <div class="contact_line"></div>
 
     <div class="media_sletters">
@@ -104,21 +147,21 @@
             <div class="column_news">
                 <img src="img/newssltter1.jpg" alt="Trulli" style="width:100%" class="news_img">
                 <div class="media_hveff">
-                    <p class="media_hvtext">hf u ufy ahuy </p>
+                    <p class="media_hvtext">Wel Come</p>
                 </div>
             </div>
 
             <div class="column_news">
                 <img src="img/newssletter2.jpg" alt="Trulli" style="width:100%" class="news_img">
                 <div class="media_hveff">
-                    <p class="media_hvtext">hf u ufy ahuy </p>
+                    <p class="media_hvtext">Wel Come</p>
                 </div>
             </div>
 
             <div class="column_news">
                 <img src="img/newsletter3.jpg" alt="Trulli" style="width:100%" class="news_img">
                 <div class="media_hveff">
-                    <p class="media_hvtext">hf u ufy ahuy </p>
+                    <p class="media_hvtext">Wel Come</p>
                 </div>
             </div>
 
@@ -135,7 +178,7 @@
 
 <!-- event start -->
 <div class="media_event">
-    <h1>Events</h1>
+    <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">Events</h1>
     <div class="contact_line"></div>
 
     <div class="media_evimg">
@@ -212,45 +255,6 @@
 
 <!-- event close -->
 
-<!-- article start -->
-
-<div class="media_art">
-    <h1>Articles</h1>
-    <div class="contact_line"></div>
-
-    <div class="media_article">
-
-        <div class="row_article article-responsive">
-
-            <div class="column_article">
-                <img src="img/zeebuessnes.png" alt="Trulli" style="width:100%">
-            </div>
-
-            <div class="column_article">
-                <img src="img/midday.png" alt="Trulli" style="width:100%">
-            </div>
-
-            <div class="column_article">
-                <img src="img/moneycotrol.png" alt="Trulli" style="width:100%">
-            </div>
-
-            <div class="column_article">
-                <img src="img/bs.png" alt="Trulli" style="width:100%">
-            </div>
-
-            <div class="column_article">
-                <img src="img/kwatt.png" alt="Trulli" style="width:100%">
-            </div>
-
-            <div class="column_article">
-                <img src="img/arkzerr.png" alt="Trulli" style="width:100%">
-            </div>
-
-        </div>
-    </div>
-</div>
-
-<!-- article end -->
 <!-- know more -->
 
 <div class="media_knwmr">
@@ -435,6 +439,61 @@ $('.article-responsive').slick({
 
 </script>
 
+<!-- media slider -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
+    <script>
+	$('.responsivehomeproj').slick({
+		dots: true,
+		arrow: true,
+		prevArrow:'<button type="button" class="prev-button-home"></button>',
+        nextArrow:'<button type="button" class="next-button-home"></button>',
+		infinite: false,
+		autoplay: true,
+		speed: 300,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		responsive: [
+			{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				arrow: true,
+				prevArrow:'<button type="button" class="prev-button-home"></button>',
+        		nextArrow:'<button type="button" class="next-button-home"></button>',
+				infinite: false,
+				dots: true
+			}
+			},
+			{
+			breakpoint: 600,
+			settings: {
+				slidesToShow: 1,
+				arrow: true,
+				prevArrow:'<button type="button" class="prev-button-home"></button>',
+        		nextArrow:'<button type="button" class="next-button-home"></button>',
+				slidesToScroll: 1
+			}
+			},
+			{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1,
+				arrow: true,
+				prevArrow:'<button type="button" class="prev-button-home"></button>',
+       			nextArrow:'<button type="button" class="next-button-home"></button>',
+				slidesToScroll: 1
+			}
+			}
+			// You can unslick at a given breakpoint now by adding:
+			// settings: "unslick"
+			// instead of a settings object
+		]
+		});
+    </script>
 
 
 <?php include 'footer.php';?>

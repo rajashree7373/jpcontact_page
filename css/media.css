@@ -1,9 +1,4 @@
-.media_desk {
-    display: block;
-}
-.media_mob {
-    display: none;
-}
+
 .clearrb {
     clear: both;
 }
@@ -15,6 +10,137 @@
     padding-top: 0px;
     display: block;
 }
+
+/* media */
+
+
+/**********************
+slick slider
+***********************/
+
+
+.slick-dots {
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 15px;
+}
+.slick-dots li {
+  display: inline-block;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.slick-dots li.slick-active button {
+	border: 1px solid #1b405b !important;
+}
+.slick-dots li button {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-color: #486b99;
+  border: none;
+  width: 6px;
+  height: 12px;
+  border-radius: 50%;
+}
+/* Custom Arrow */
+.prev-button-home {
+    color: #999;
+    position: absolute;
+    top: 40%;
+    left: -25px;
+    font-size: 1.5em;
+    background-image: url(images/arrow_2.png);
+    width: 27px;
+    height: 18px;
+    border: none;
+    background-color: transparent;
+    outline: none !important;
+}
+.prev-button-home :hover {
+  cursor: pointer;
+  color: black;
+}
+.next-button-home {
+    color: #999;
+    position: absolute;
+    top: 40%;
+    font-size: 1.5em;
+    background-image: url(images/arrow_1.png);
+    right: -25px;
+    width: 28px;
+    height: 18px;
+    border: none;
+    background-color: transparent;
+    outline: none !important;
+}
+.next-button-home :hover {
+  cursor: pointer;
+  color: black;
+}
+
+
+/*******************************
+glimpse jp start
+*******************************/
+.desktop{
+
+    display: block;
+}
+.mobile{
+
+    display: none;
+
+}
+
+.media_glimpse-main {
+    background-color: #2e568945;
+    width: 100%;
+    padding: 21px 0;
+}
+.media_glimpse-col{
+    width:33.33%;
+    float: left;
+}
+.media_glimpse-col-inner {
+    width: 100%;
+    padding: 10px;
+}
+.media_glimpse-col-inner img{
+    width: 100%;
+}
+.media_glimpse-col-middle {
+    width: 100%;
+    padding: 10px 10px;
+}
+.media_glimpse-col-middle img{
+    width:100%;
+    height: 98.5vh;
+}
+.lable_line {
+    text-align: center;
+    width: 8%;
+    margin: 0 auto;
+}
+.media_glimpse-head.aos-init.aos-animate p {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.media_glimpse-h1 h1 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 800;
+    color: #2E5689;
+    padding: 0;
+    margin: 0px 0px 40px 0px;
+    text-transform: capitalize;
+}
+.media_glimpse-slider{
+    width:80%;
+    margin: 37px auto;
+}
+
 
 /* news sletters */
 
@@ -119,10 +245,9 @@ p.fig_txt {
     background-color:#fff;
     text-align: center;
     margin: 0 auto;
-    padding-top: 15px;
 }
 .row_article {
-    padding: 28px 0px 28px 0px
+    padding: 30px 0px;
 }
 .column_article {
     float: left;
@@ -255,12 +380,6 @@ img.button-project{
 
 @media only screen and (max-width: 768px){
 
-    .media_desk {
-        display: block;
-    }
-    .media_mob {
-        display: none;
-    }
     .media_knwmr {
         padding: 15px 25px 64px 25px;
     }
@@ -273,8 +392,54 @@ img.button-project{
         display: none;
     }
     .media_btn-width {
-        width: 44% !important;
+        width: 48% !important;
     }
+    .media_glimpse-main {
+        background-color: #2e568945;
+        width: 100%;
+        padding: 30px 0;
+    }
+    .media_glimpse-col-middle img {
+        width: 100%;
+        height: auto;
+    }
+    .media_glimpse-h1 h1 {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 800;
+        color: #2E5689;
+        padding: 0px 0px 0px 0px;
+        margin: 20px 0px;
+        text-transform: capitalize;
+    }
+    .line-homepage {
+        text-align: left;
+        width: 33%;
+    }
+    .lable_line {
+        text-align: center;
+        padding-top: 0px;
+        width: 27%;
+    }
+    .media_glimpse-head.aos-init.aos-animate p {
+        text-align: center;
+        margin: 10px auto;
+        width: 80%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .desktop{
+
+        display: none;
+    }
+    .mobile{
+
+        display: block;
+
+    }
+
+
     
 
 }
